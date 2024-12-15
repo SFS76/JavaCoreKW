@@ -27,7 +27,7 @@ public class JavaQuestionSevice implements QuestionService {
     public Question remove(Question question) {
         boolean isRemoved = questions.remove(question);
         if (isRemoved) {
-            return question
+            return question;
         } else {
             return null;
         }
